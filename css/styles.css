@@ -1,0 +1,51 @@
+body {
+   background-color: #eeeeee;
+   color: #393e46;
+}
+
+a:link {
+  color: #d65831;    
+}
+
+a:visited {
+  color: #d65831;    
+}
+
+h1 {
+   /*color: #222831;*/
+   color: #393e46;
+  /*color: #d65831;    */
+}
+
+h3 {
+   /*color: #222831;*/
+   color: #393e46;
+  /*color: #d65831;    */
+}
+
+/*td {*/
+   /*background-color: #d65831;*/
+
+/*}*/
+
+/* PROTIP: If you want just a single border, sit the height to 0px */ 
+hr {
+   height: 0px;
+   /*border-color: #393e46;*/
+   border-color: #d65831;
+   border-style: dotted none none none;
+   border-width: 5px;
+
+   /* border-style attribute, or any general attribute for that matter, overrides all
+      specific sub-attribute specifications - so in this case if you set border-style-top before
+      border-style, then it will be overwritten by whatever is set in border-style. */
+
+
+   /*border-top: 5px;
+   border-top-style: dotted;
+   border-right: none;
+   border-left: none;
+   border-bottom: none;*/
+   width: 5%;
+}
+
